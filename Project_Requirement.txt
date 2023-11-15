@@ -1,0 +1,4 @@
+pandas --> version 1.5.3
+Streamlit --> version 1.19.0
+Plotly --> version 5.17.0
+git_cloning --->version 2.42.0.windows.1
