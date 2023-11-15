@@ -8,7 +8,7 @@ import plotly.express as px
 # DataBase connection 
 Mydb = sql.connect(host = "localhost",
                    user = "root",
-                   password = "Din@9600",
+                   password = "your password",
                    database = "phonepe")
 mycursor = Mydb.cursor(buffered=True)
 
@@ -333,32 +333,3 @@ if selected == "My-Profile":
         st.write(" ")
         st.write(" ")
         st.subheader(":white[Phone Pulse: ]",divider='rainbow')
-        st.markdown("""
-                    <div style="text-align: justify; font-size: 30px;">
-                        <h3 style="color: purple;">The objective of this project is to:</h3>
-                        <p style="font-size: 25px; text-align: justify;">
-                            Retrieve data from the Phonepe Pulse GitHub repository, perform data transformation and cleansing,
-                            insert it into a MySQL database, and develop a live geo-visualization dashboard using Streamlit and Plotly in Python.
-                            The dashboard will present the data interactively and aesthetically, featuring a minimum of 10 diverse dropdown options
-                            for users to select various facts and figures. The solution aims to be secure, efficient, and user-friendly, offering valuable
-                            insights and information about the data within the Phonepe Pulse GitHub repository.
-                        </p></div>""", unsafe_allow_html=True)
-        st.write(" ")
-        st.write(" ")
-        st.markdown("### :gray[Name:  ] :blue[Dinesh Dhamodharan]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:gray[Email:  ] dineshdin9600@gmail.com")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.markdown("### :violet[My Project GitHub link] ⬇️")
-        github_url = "https://github.com/DineshDhamodharan24/Phonepe-Pulse-Data-Visualization-and-Exploration"
-        button_color = "#781734"
-        # Create a button with a hyperlink
-        button_html = f'<a href="{github_url}" target="_blank"><button style="font-size: 16px; background-color: {button_color}; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;">GitHub My Phonepe Project</button></a>'
-        st.markdown(button_html, unsafe_allow_html=True)
-        st.write(" ")
-        st.write(" ")
-        st.markdown("### :violet[My Linkdin] ⬇️")
-        Linkdin_url= "https://www.linkedin.com/in/dinesh-dhamodharan-2bbb9722b/"
-        button_color = "#781734"
-        button_html = f'<a href="{Linkdin_url}" target="_blank"><button style="font-size: 16px; background-color: {button_color}; color: #fff; padding: 8px 16px; border: none; border-radius: 4px;">My Linkdin profile</button></a>'
-        st.markdown(button_html, unsafe_allow_html=True)
