@@ -1,5 +1,8 @@
 # Phonepe-Pulse-Data-Visualization-and-Exploration
 
+**To check website in My Project**
+Link: [phonepe-plus-project.onrender.com](https://phonepe-plus-project.onrender.com/)
+
 **Problem Statement**
 
 Retrieve data from the Phonepe Pulse GitHub repository, perform data transformation and cleansing,insert it into a MySQL database, and develop a live geo-visualization dashboard using Streamlit and Plotly in Python.The dashboard will present the data interactively and aesthetically, featuring a minimum of 10 diverse dropdown optionsfor users to select various facts and figures. The solution aims to be secure, efficient, and user-friendly, offering valuable insights and information about the data within the Phonepe Pulse GitHub repository.
